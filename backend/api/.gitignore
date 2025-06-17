@@ -1,0 +1,85 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# If using PostgreSQL locally and dumping files
+*.dump
+
+# Django static and media folders
+/static/
+/media/
+
+# Collected static files (after collectstatic)
+staticfiles/
+
+# Ignore local settings (optional)
+local_settings.py
+
+# Environment files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Python virtualenvs
+venv/
+.env/
+.venv/
+
+# Poetry virtualenvs (if not using in-project venvs)
+# (this is typically not needed if you're using Poetry's default config)
+# .venv/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Testing
+.tox/
+.pytest_cache/
+nosetests.xml
+test.db
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Pyright
+pyrightconfig.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Editor junk
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional: compiled translations
+*.mo
+
+# Ignore collected static files (e.g. Django admin assets)
+src/static/
+src/staticfiles/
+
